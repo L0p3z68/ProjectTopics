@@ -1,0 +1,10 @@
+﻿  Animator.cpp
+  OpenGLDemo.cpp
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(93,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(104,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(118,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(122,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+  stb_image.cpp
+  Gerando Código...
+  glad.c
+  OpenGLDemo.vcxproj -> C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\x64\Debug\OpenGLDemo.exe
