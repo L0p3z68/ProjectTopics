@@ -33,8 +33,8 @@ int main(int argc, char* argv[])
 	SDL_Renderer* renderTarget = nullptr;
 	SDL_Rect playerRect;
 	SDL_Rect playerPosition;
-	playerPosition.x = 64;
-	playerPosition.w = playerPosition.h = 128;
+	playerPosition.x = 16;
+	playerPosition.w = playerPosition.h = 32;
 	int frameWidth, frameHeight;
 	int textureWidth, textureHeight;
 

@@ -130,13 +130,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="Engine\Components.cpp" />
+    <ClCompile Include="Engine\BaseScript.cpp" />
+    <ClCompile Include="Engine\Animator.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="OpenGLDemo.cpp" />
+    <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Engine\Transform.cpp" />
+    <ClCompile Include="Engine\Vector3.cpp" />
+    <ClCompile Include="Engine\Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animator.h" />
+    <ClInclude Include="Engine\Components.h" />
+    <ClInclude Include="Engine\BaseScript.h" />
+    <ClInclude Include="Engine\Animator.h" />
+    <ClInclude Include="Engine\Scene.h" />
+    <ClInclude Include="Engine\Transform.h" />
+    <ClInclude Include="Engine\Vector3.h" />
+    <ClInclude Include="Engine\Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

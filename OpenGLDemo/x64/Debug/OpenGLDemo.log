@@ -1,1 +1,5 @@
-﻿  OpenGLDemo.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\OpenGLDemo.exe
+﻿  Transform.cpp
+  Vector2.cpp
+  Vector3.cpp
+D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Vector2.cpp(1,10): error C1083: Não é possível abrir arquivo incluir: 'Vector2.hpp': No such file or directory
+  Gerando Código...
