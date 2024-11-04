@@ -3,6 +3,7 @@
 
 #include <glad/glad.h>
 #include "stb_image.h"
+#include <box2d.h>
 #undef main
 
 SDL_Texture* LoadTexture(std::string filePath, SDL_Renderer* renderTarget)
