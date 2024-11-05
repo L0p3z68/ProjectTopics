@@ -46,13 +46,13 @@ void Animator::Update(int deltaTime)
     }
 }
 
-void Animator::Render(SDL_Renderer* renderer, int x, int y)
+void Animator::Render(SDL_Renderer* renderer, SDL_Texture* texture, int x, int y)
 {
     if (!currentAnimation) return;
 
     AnimationFrame& frame = currentAnimation->frames[currentFrameIndex];
     SDL_Rect destRect = { x, y, frame.frameRect.w, frame.frameRect.h };
-    SDL_RenderCopy(renderer, /* texture */, &frame.frameRect, &destRect);
+    SDL_RenderCopy(renderer, texture, &frame.frameRect, &destRect);
 }
 
 void Animator::SetLooping(bool loop)

@@ -30,7 +30,7 @@ public:
 	void Stop();
 	void Update(int deltaTime);
 	// Additional Functions
-	void Render(SDL_Renderer* renderer, int x, int y); // Render current animation
+	void Render(SDL_Renderer* renderer, SDL_Texture* texture, int x, int y); // Render current animation
 	void SetLooping(bool loop);
 	void SetSpeed(float speedFactor); // Change the speed of the animation
 };

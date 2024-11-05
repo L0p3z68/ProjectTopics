@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SDL.h>
+#include "Animator.h"
 
 #include <glad/glad.h>
 #include "stb_image.h"
@@ -27,7 +28,6 @@ SDL_Texture* LoadTexture(std::string filePath, SDL_Renderer* renderTarget)
 
 int main(int argc, char* argv[])
 {
-
 	SDL_Window* window = nullptr;
 	SDL_Texture* currentImage = nullptr;
 	SDL_Texture* background = nullptr;
@@ -62,7 +62,7 @@ int main(int argc, char* argv[])
 	frameHeight = textureHeight;
 	playerPosition.y = 420;
 
-	playerRect.x = 192;
+	playerRect.x = frameWidth * 3;
 	playerRect.y = 0;
 	playerRect.w = frameWidth;
 	playerRect.h = frameHeight;
@@ -85,7 +85,7 @@ int main(int argc, char* argv[])
 				isRunning = false;
 			else if (ev.type == SDL_KEYUP)
 			{
-				playerRect.x = 192;
+				playerRect.x = frameWidth * 3;
 			}
 		}
 
