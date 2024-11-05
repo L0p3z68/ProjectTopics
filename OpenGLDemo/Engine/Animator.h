@@ -1,6 +1,7 @@
 #pragma once
 #include <SDL.h>
 #include <vector>
+#include "Components.h"
 
 // Structures needed
 struct AnimationFrame
@@ -14,7 +15,7 @@ struct Animation {
 	bool loop = true;  // If true, repeat the animation
 };
 
-class Animator
+class Animator : Components
 {
 private:
 	Animation* currentAnimation = nullptr; // Animation

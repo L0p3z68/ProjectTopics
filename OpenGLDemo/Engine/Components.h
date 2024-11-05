@@ -1,5 +1,7 @@
 #pragma once
-class Components
+#include "BaseScript.h" 
+class Components : BaseScript
 {
+	
 };
 
