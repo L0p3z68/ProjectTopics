@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Topicos\\ProjectTopics\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Animator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,12 +15,36 @@
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\BaseScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\BaseScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Animator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,31 +67,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Components.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Components.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Components.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Animator.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Animator.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Animator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T18:10:52.821Z",
+              "WhenOpened": "2024-11-05T16:06:39.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "BaseScript.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\BaseScript.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\BaseScript.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-05T16:03:46.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BaseScript.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\BaseScript.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.h",
               "RelativeToolTip": "OpenGLDemo\\Engine\\BaseScript.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T18:08:56.298Z"
+              "WhenOpened": "2024-11-05T16:03:29.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Animator.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Animator.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Animator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-05T15:25:21.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Components.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Components.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Components.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-30T18:10:52.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Vector3.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector3.cpp",
@@ -91,31 +139,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Vector3.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector3.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h",
               "RelativeToolTip": "OpenGLDemo\\Engine\\Vector3.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-30T12:22:35.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Vector2.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector2.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.cpp",
               "RelativeToolTip": "OpenGLDemo\\Engine\\Vector2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T17:42:37.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Vector2.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector2.h",
@@ -127,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Transform.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Transform.h",
@@ -139,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Transform.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Transform.cpp",
@@ -157,13 +205,13 @@
               "RelativeDocumentMoniker": "OpenGLDemo\\OpenGLDemo.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp",
               "RelativeToolTip": "OpenGLDemo\\OpenGLDemo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T10:55:51.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Scene.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Scene.h",
