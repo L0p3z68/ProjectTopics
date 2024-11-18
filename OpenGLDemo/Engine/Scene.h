@@ -1,15 +1,15 @@
 #pragma once
-#include "BaseScript.h"
+#include "Object.h"
 #include <vector>
 
 class Scene : BaseScript
 {
 	private:
-		std::vector<BaseScript> objectsInScene;
+		std::vector<Object> objectsInScene;
 
 	public:
 		Scene();
-		void AddObject(BaseScript object);
+		void AddObject(Object object);
 		void Awake();
 		void Start();
 		void Update(int deltaTime);

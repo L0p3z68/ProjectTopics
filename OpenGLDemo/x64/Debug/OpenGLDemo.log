@@ -1,16 +1,10 @@
-﻿  Components.cpp
-  BaseScript.cpp
-  Animator.cpp
+﻿  Scene.cpp
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\Engine\Scene.h(2,10): fatal  error C1083: Não é possível abrir arquivo incluir: 'Object.h': No such file or directory
+  Object.cpp
   OpenGLDemo.cpp
-  Scene.cpp
-  stb_image.cpp
-D:\Topicos\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(94,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
-D:\Topicos\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(105,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
-D:\Topicos\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(119,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
-D:\Topicos\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(123,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
-  Transform.cpp
-  Vector3.cpp
-  Vector2.cpp
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(68,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(79,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(93,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(97,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+  Window.cpp
   Gerando Código...
-  glad.c
-  OpenGLDemo.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\OpenGLDemo.exe

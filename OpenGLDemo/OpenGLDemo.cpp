@@ -5,39 +5,18 @@
 #include <glad/glad.h>
 #include "stb_image.h"
 #include <box2d.h>
+#include "Window.h"
+#include "SpriteRenderer.h"
 #undef main
-
-SDL_Texture* LoadTexture(std::string filePath, SDL_Renderer* renderTarget)
-{
-	SDL_Texture* texture = nullptr;
-	SDL_Surface* surface = SDL_LoadBMP(filePath.c_str());
-	if (surface == NULL)
-		std::cout << "Error" << std::endl;
-	else
-	{
-		SDL_SetColorKey(surface, SDL_TRUE, SDL_MapRGB(surface->format, 255, 0, 255));
-		texture = SDL_CreateTextureFromSurface(renderTarget, surface);
-		if (texture == NULL)
-			std::cout << "Error" << std::endl;
-	}
-
-	SDL_FreeSurface(surface);
-
-	return texture;
-}
 
 int main(int argc, char* argv[])
 {
-	SDL_Window* window = nullptr;
-	SDL_Texture* currentImage = nullptr;
-	SDL_Texture* background = nullptr;
-	SDL_Renderer* renderTarget = nullptr;
+	
 	SDL_Rect playerRect;
 	SDL_Rect playerPosition;
 	playerPosition.x = 16;
 	playerPosition.w = playerPosition.h = 32;
 	int frameWidth, frameHeight;
-	int textureWidth, textureHeight;
 
 	float frameTime = 0;
 	int prevTime = 0;
@@ -48,18 +27,13 @@ int main(int argc, char* argv[])
 	const Uint8* keyState;
 
 	SDL_Init(SDL_INIT_VIDEO);
+	Scene scene;
+	Window window = Window("SDL window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL, scene);
+	SpriteRenderer currentImage = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget());
+	SpriteRenderer background = SpriteRenderer("graphics/galaxy2.bmp", window.GetRenderTarget());
 
-	window = SDL_CreateWindow("SDL window", SDL_WINDOWPOS_CENTERED,
-		SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL);
-	renderTarget = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED |
-		SDL_RENDERER_PRESENTVSYNC);
-	currentImage = LoadTexture("graphics/Ship1.bmp", renderTarget);
-	background = LoadTexture("graphics/galaxy2.bmp", renderTarget);
-
-	SDL_QueryTexture(currentImage, NULL, NULL, &textureWidth, &textureHeight);
-
-	frameWidth = textureWidth / 7;
-	frameHeight = textureHeight;
+	frameWidth = currentImage.GetTextureWidth() / 7;
+	frameHeight = currentImage.GetTextureHeight();
 	playerPosition.y = 420;
 
 	playerRect.x = frameWidth * 3;
@@ -67,7 +41,7 @@ int main(int argc, char* argv[])
 	playerRect.w = frameWidth;
 	playerRect.h = frameHeight;
 	
-	SDL_SetRenderDrawColor(renderTarget, 0xFF, 0, 0, 0xFF);
+	SDL_SetRenderDrawColor(window.GetRenderTarget(), 0xFF, 0, 0, 0xFF);
 
 	bool isRunning = true;
 	SDL_Event ev;
@@ -96,7 +70,7 @@ int main(int argc, char* argv[])
 			if (frameTime >= 0.1f)
 			{
 				frameTime = 0;
-				if (playerRect.x < (textureWidth-frameWidth))
+				if (playerRect.x < (currentImage.GetTextureWidth() -frameWidth))
 					playerRect.x += frameWidth;
 			}
 			
@@ -138,18 +112,15 @@ int main(int argc, char* argv[])
 			}
 		}*/
 
-		SDL_RenderClear(renderTarget);
-		SDL_RenderCopy(renderTarget, background, NULL, NULL);
-		SDL_RenderCopy(renderTarget, currentImage, &playerRect, &playerPosition);
-		SDL_RenderPresent(renderTarget);
+		SDL_RenderClear(window.GetRenderTarget());
+		background.RenderImage(window.GetRenderTarget(), NULL, NULL);
+		currentImage.RenderImage(window.GetRenderTarget(), &playerRect, &playerPosition);
+		SDL_RenderPresent(window.GetRenderTarget());
 	}
 
-	SDL_DestroyWindow(window);
-	SDL_DestroyTexture(currentImage);
-	SDL_DestroyRenderer(renderTarget);
-	window = nullptr;
-	currentImage = nullptr;
-	renderTarget = nullptr;
+	window.~Window();
+	currentImage.~SpriteRenderer();
+	background.~SpriteRenderer();
 
 	SDL_Quit();
 

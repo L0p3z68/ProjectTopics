@@ -6,17 +6,17 @@ Transform::Transform() : position{ Vector3(0.0f, 0.0f, 0.0f) }, rotation{ Vector
 
 Vector3 Transform::GetPosition()
 {
-    return const Vector3();
+    return Vector3();
 }
 
 Vector3 Transform::GetRotation()
 {
-    return const Vector3();
+    return Vector3();
 }
 
 Vector3 Transform::GetScale()
 {
-    return const Vector3();
+    return Vector3();
 }
 
 void Transform::SetPosition(Vector3 pos)

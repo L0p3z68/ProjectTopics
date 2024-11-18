@@ -4,7 +4,7 @@ Scene::Scene()
 {
 }
 
-void Scene::AddObject(BaseScript object)
+void Scene::AddObject(Object object)
 {
 	objectsInScene.push_back(object);
 }
