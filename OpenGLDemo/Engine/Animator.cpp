@@ -1,70 +1,50 @@
 #include "Animator.h"
 
-// Functions
-void Animator::Play(Animation* animation)
+Animator::Animator(SpriteRenderer sr) : spriteRenderer{ sr }{}
+
+void Animator::AddAnimation(std::string animationName, std::vector<int> frames, bool loop, float fps)
 {
-    currentAnimation = animation;
+    Animation newAnimation;
+    newAnimation.animationName = animationName;
+    newAnimation.frames = frames;
+    newAnimation.loop = loop;
+    newAnimation.fps = fps;
+    animations.push_back(newAnimation);
+}
+
+void Animator::Play(std::string animationName)
+{
+    for (size_t i = 0; i < animations.size() - 1; ++i)
+    {
+        if (animations[i].animationName ==  animationName) {
+            indexCurrentAnimation = i;
+            break;
+        }
+    }
     currentFrameIndex = 0;
-    elapsedTime = 0;
-    isPaused = false;
-}
-
-void Animator::Pause()
-{
-    isPaused = true;
-}
-
-void Animator::Resume()
-{
-    isPaused = false;
-}
-
-void Animator::Stop()
-{
-    currentAnimation = nullptr;
-    currentFrameIndex = 0;
-    elapsedTime = 0;
-    isPaused = true;
 }
 
 void Animator::Update(int deltaTime)
 {
-    if (isPaused || !currentAnimation) return;
-
     elapsedTime += deltaTime;
-    if (elapsedTime >= currentAnimation->frames[currentFrameIndex].duration) {
+    if (elapsedTime >= 1/animations[indexCurrentAnimation].fps) {
         elapsedTime = 0;
-        currentFrameIndex++;
-        if (currentFrameIndex >= currentAnimation->frames.size()) {
-            if (currentAnimation->loop) {
+
+        if (currentFrameIndex >= animations[indexCurrentAnimation].frames.size()) {
+            if (animations[indexCurrentAnimation].loop) {
                 currentFrameIndex = 0;
             }
-            else {
-                currentFrameIndex--;  // Stay on the last frame
+            else
+            {
+                return;
             }
         }
+        currentFrameIndex++;
     }
 }
 
-void Animator::Render(SDL_Renderer* renderer, SDL_Texture* texture, int x, int y)
+Animator::~Animator()
 {
-    if (!currentAnimation) return;
-
-    AnimationFrame& frame = currentAnimation->frames[currentFrameIndex];
-    SDL_Rect destRect = { x, y, frame.frameRect.w, frame.frameRect.h };
-    SDL_RenderCopy(renderer, texture, &frame.frameRect, &destRect);
-}
-
-void Animator::SetLooping(bool loop)
-{
-    if (currentAnimation) currentAnimation->loop = loop;
-}
-
-void Animator::SetSpeed(float speedFactor)
-{
-    if (currentAnimation) {
-        for (auto& frame : currentAnimation->frames) {
-            frame.duration = static_cast<int>(frame.duration * speedFactor);
-        }
-    }
+    spriteRenderer.~SpriteRenderer();
+    animations.~vector();
 }

@@ -1,38 +1,31 @@
 #pragma once
 #include <SDL.h>
 #include <vector>
+#include <iostream>
 #include "Components.h"
-
-// Structures needed
-struct AnimationFrame
-{
-	SDL_Rect frameRect;
-	int duration;  // Duration in milliseconds
-};
+#include "SpriteRenderer.h"
 
 struct Animation {
-	std::vector<AnimationFrame> frames;
-	bool loop = true;  // If true, repeat the animation
+	std::string animationName;
+	std::vector<int> frames;
+	bool loop;
+	float fps;
 };
 
 class Animator : Components
 {
 private:
-	Animation* currentAnimation = nullptr; // Animation
+	SpriteRenderer spriteRenderer;
+	int indexCurrentAnimation = 0;
+	std::vector<Animation> animations; 
 	int currentFrameIndex = 0;
 	int elapsedTime = 0;
-	bool isPaused = false;
 
 public:
-	// Basic Functions of an Animator
-	void Play(Animation* animation);
-	void Pause();
-	void Resume();
-	void Stop();
+	Animator(SpriteRenderer sr);
+	void AddAnimation(std::string animationName, std::vector<int> frames, bool loop, float fps);
+	void Play(std::string animationName);
 	void Update(int deltaTime);
-	// Additional Functions
-	void Render(SDL_Renderer* renderer, SDL_Texture* texture, int x, int y); // Render current animation
-	void SetLooping(bool loop);
-	void SetSpeed(float speedFactor); // Change the speed of the animation
+	~Animator();
 };
 

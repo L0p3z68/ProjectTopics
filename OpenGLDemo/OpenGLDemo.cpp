@@ -9,14 +9,12 @@
 #include "SpriteRenderer.h"
 #undef main
 
-int main(int argc, char* argv[])
+/*int main(int argc, char* argv[])
 {
-	
-	SDL_Rect playerRect;
 	SDL_Rect playerPosition;
 	playerPosition.x = 16;
 	playerPosition.w = playerPosition.h = 32;
-	int frameWidth, frameHeight;
+	int indexAnim = 0;
 
 	float frameTime = 0;
 	int prevTime = 0;
@@ -29,17 +27,11 @@ int main(int argc, char* argv[])
 	SDL_Init(SDL_INIT_VIDEO);
 	Scene scene;
 	Window window = Window("SDL window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, SDL_WINDOW_OPENGL, scene);
-	SpriteRenderer currentImage = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget());
+	SpriteRenderer currentImage = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget(), 7, 1);
 	SpriteRenderer background = SpriteRenderer("graphics/galaxy2.bmp", window.GetRenderTarget());
-
-	frameWidth = currentImage.GetTextureWidth() / 7;
-	frameHeight = currentImage.GetTextureHeight();
 	playerPosition.y = 420;
 
-	playerRect.x = frameWidth * 3;
-	playerRect.y = 0;
-	playerRect.w = frameWidth;
-	playerRect.h = frameHeight;
+	indexAnim = 3;
 	
 	SDL_SetRenderDrawColor(window.GetRenderTarget(), 0xFF, 0, 0, 0xFF);
 
@@ -59,7 +51,7 @@ int main(int argc, char* argv[])
 				isRunning = false;
 			else if (ev.type == SDL_KEYUP)
 			{
-				playerRect.x = frameWidth * 3;
+				indexAnim = 3;
 			}
 		}
 
@@ -70,8 +62,9 @@ int main(int argc, char* argv[])
 			if (frameTime >= 0.1f)
 			{
 				frameTime = 0;
-				if (playerRect.x < (currentImage.GetTextureWidth() -frameWidth))
-					playerRect.x += frameWidth;
+				if (indexAnim <= 5) {
+					indexAnim++;
+				}
 			}
 			
 		}
@@ -81,9 +74,9 @@ int main(int argc, char* argv[])
 			if (frameTime >= 0.1f)
 			{
 				frameTime = 0;
-				if (playerRect.x >= frameWidth)
-					playerRect.x -= frameWidth;
-				
+				if (indexAnim >= 1) {
+					indexAnim--;
+				}
 			}
 			
 		}
@@ -99,7 +92,7 @@ int main(int argc, char* argv[])
 		
 		frameTime += deltaTime;
 
-		/*if (frameTime >= 0.25f)
+		if (frameTime >= 0.25f)
 		{
 			frameTime = 0;
 			playerRect.x += frameWidth;
@@ -110,11 +103,11 @@ int main(int argc, char* argv[])
 					playerRect.y = 0;
 				}
 			}
-		}*/
+		}
 
 		SDL_RenderClear(window.GetRenderTarget());
-		background.RenderImage(window.GetRenderTarget(), NULL, NULL);
-		currentImage.RenderImage(window.GetRenderTarget(), &playerRect, &playerPosition);
+		background.RenderImage();
+		currentImage.RenderImage(&playerPosition, indexAnim);
 		SDL_RenderPresent(window.GetRenderTarget());
 	}
 
@@ -125,4 +118,4 @@ int main(int argc, char* argv[])
 	SDL_Quit();
 
 	return 0;
-}
+}*/

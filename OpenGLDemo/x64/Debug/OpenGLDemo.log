@@ -1,10 +1,4 @@
-﻿  Scene.cpp
-C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\Engine\Scene.h(2,10): fatal  error C1083: Não é possível abrir arquivo incluir: 'Object.h': No such file or directory
-  Object.cpp
-  OpenGLDemo.cpp
-C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(68,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
-C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(79,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
-C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(93,34): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
-C:\Users\Tiago\source\repos\SDLDemo\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp(97,34): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
-  Window.cpp
-  Gerando Código...
+﻿  SpriteRenderer.cpp
+D:\Topicos\ProjectTopics\OpenGLDemo\Engine\SpriteRenderer.cpp(73,30): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+D:\Topicos\ProjectTopics\OpenGLDemo\Engine\SpriteRenderer.cpp(74,31): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+  OpenGLDemo.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\OpenGLDemo.lib

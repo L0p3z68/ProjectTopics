@@ -3,6 +3,7 @@
 #include <string>
 #include "Scene.h"
 #include <vector>
+#include <iostream>
 
 class Window : BaseScript
 {
@@ -13,11 +14,13 @@ class Window : BaseScript
 
 
 	public:
-		Window(const char* title, int x, int y, int w, int h, Uint32 flags, Scene scene);
+		Window(const char* title, int w, int h, Scene scene);
 
 		void Awake();
 		void Start();
 		void Update(int deltaTime);
+
+
 
 		SDL_Renderer* GetRenderTarget();
 

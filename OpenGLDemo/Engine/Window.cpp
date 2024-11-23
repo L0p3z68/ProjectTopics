@@ -1,10 +1,14 @@
 #include "Window.h"
 
-Window::Window(const char* title, int x, int y, int w, int h, Uint32 flags, Scene scene) : scene{scene}
+Window::Window(const char* title, int w, int h, Scene scene) : scene{scene}
 {
-	window = SDL_CreateWindow(title, x, y, w, h, flags);
+	SDL_Init(SDL_INIT_VIDEO);
+
+	window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, w, h,  SDL_WINDOW_OPENGL);
 
 	renderTarget = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
+
+	SDL_SetRenderDrawColor(renderTarget, 0xFF, 0, 0, 0xFF);
 }
 
 void Window::Awake()
@@ -33,5 +37,5 @@ Window::~Window()
 	SDL_DestroyRenderer(renderTarget);
 	window = nullptr;
 	renderTarget = nullptr;
-
+	SDL_Quit();
 }
