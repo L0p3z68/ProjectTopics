@@ -114,7 +114,8 @@
     </Link>
     <Lib>
       <AdditionalLibraryDirectories>$(SolutionDir)OpenGLDemo\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.dll;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -146,7 +147,6 @@
     <ClCompile Include="Engine\Window.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="Engine\Scene.cpp" />
-    <ClCompile Include="OpenGLDemo.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Engine\Transform.cpp" />
     <ClCompile Include="Engine\Vector3.cpp" />

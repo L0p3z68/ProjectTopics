@@ -1,1 +1,3 @@
-﻿LINK : fatal error LNK1104: não é possível abrir o arquivo 'OpenGLDemo.lib'
+﻿  XenonClone.cpp
+D:\Topicos\ProjectTopics\XenonClone\XenonClone.cpp(92,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  XenonClone.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\XenonClone.exe

@@ -3,7 +3,7 @@
 
 struct Inputs::Aux
 {
-	//const Uint8* keyState;
+	const Uint8* keyState;
 };
 
 Inputs::Inputs() : aux{new Aux()}
@@ -12,7 +12,7 @@ Inputs::Inputs() : aux{new Aux()}
 
 bool Inputs::GetKeyState(KeyName keyName)
 {
-	/*switch (keyName)
+		switch (keyName)
 	{
 		case space:
 			return aux->keyState[SDL_SCANCODE_SPACE];
@@ -34,6 +34,5 @@ bool Inputs::GetKeyState(KeyName keyName)
 			return aux->keyState[SDL_SCANCODE_D];
 		default:
 			return aux->keyState[SDL_SCANCODE_UNKNOWN];
-	}*/
-	return true;
+	}
 }

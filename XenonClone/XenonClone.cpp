@@ -9,6 +9,7 @@
 
 int main(int argc, char* argv[])
 {
+	std::cout << "isRunnin" << std::endl;
 	int indexAnim = 0;
 
 	float frameTime = 0;
@@ -19,7 +20,6 @@ int main(int argc, char* argv[])
 	float moveSpeed = 200.0f;
 	Engine engine;
 	Scene scene;
-	engine.AddScene(scene);
 	Window window = Window("SDL window", 640, 480, &scene);
 	Object nave = Object(Transform(Vector3(16.f, 420.f , 0.f), Vector3(), Vector3(32.f, 32.f, 1.f)));
 	SpriteRenderer spriteNave = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget(), 7, 1);
@@ -35,8 +35,12 @@ int main(int argc, char* argv[])
 	bool isRunning = true;
 	Inputs input;
 
+	window.Awake();
+	window.Start();
+
 	while (isRunning)
 	{
+		std::cout << "hhh" << std::endl;
 		prevTime = currentTime;
 		currentTime = engine.GetTicks();
 		deltaTime = (currentTime - prevTime) / 1000.0f;

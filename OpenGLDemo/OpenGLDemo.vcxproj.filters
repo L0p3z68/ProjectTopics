@@ -54,9 +54,6 @@
     <ClCompile Include="Engine\Engine.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="OpenGLDemo.cpp">
-      <Filter>Arquivos de Origem</Filter>
-    </ClCompile>
     <ClCompile Include="Engine\Inputs.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>

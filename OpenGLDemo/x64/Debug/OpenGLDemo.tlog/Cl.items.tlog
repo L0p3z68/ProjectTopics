@@ -1,11 +1,12 @@
+D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Engine.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Engine.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Components.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Components.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\BaseScript.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\BaseScript.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Animator.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Animator.obj
+D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Inputs.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Inputs.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Object.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Object.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\SpriteRenderer.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\SpriteRenderer.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Window.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Window.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\glad.c;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\glad.obj
-D:\Topicos\ProjectTopics\OpenGLDemo\OpenGLDemo.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\OpenGLDemo.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Scene.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Scene.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\stb_image.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\stb_image.obj
 D:\Topicos\ProjectTopics\OpenGLDemo\Engine\Transform.cpp;D:\Topicos\ProjectTopics\OpenGLDemo\x64\Debug\Transform.obj
