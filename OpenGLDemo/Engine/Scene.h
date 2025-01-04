@@ -2,7 +2,7 @@
 #include "Object.h"
 #include <vector>
 
-class Scene : BaseScript
+class Scene : public BaseScript
 {
 	private:
 		std::vector<Object> objectsInScene;

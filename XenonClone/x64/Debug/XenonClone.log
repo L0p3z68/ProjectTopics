@@ -1,1 +1,1 @@
-﻿  XenonClone.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\XenonClone.exe
+﻿LINK : fatal error LNK1104: não é possível abrir o arquivo 'OpenGLDemo.lib'

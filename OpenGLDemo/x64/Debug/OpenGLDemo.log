@@ -1,4 +1,2 @@
-﻿  SpriteRenderer.cpp
-D:\Topicos\ProjectTopics\OpenGLDemo\Engine\SpriteRenderer.cpp(73,30): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
-D:\Topicos\ProjectTopics\OpenGLDemo\Engine\SpriteRenderer.cpp(74,31): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
-  OpenGLDemo.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\OpenGLDemo.lib
+﻿  Inputs.cpp
+D:\Topicos\ProjectTopics\OpenGLDemo\SDL2\lib\x64\SDL2.dll : fatal error LNK1107: arquivo inválido ou corrompido: não é possível ler em 0x2E0

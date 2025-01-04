@@ -1,5 +1,4 @@
 #pragma once
-#include <SDL.h>
 #include <string>
 #include "Scene.h"
 #include <vector>
@@ -8,13 +7,13 @@
 class Window : BaseScript
 {
 	private:
-		SDL_Window* window = nullptr;
-		SDL_Renderer* renderTarget = nullptr;
-		Scene scene;
+		struct SDL_Window* window = nullptr;
+		struct SDL_Renderer* renderTarget = nullptr;
+		Scene* scene;
 
 
 	public:
-		Window(const char* title, int w, int h, Scene scene);
+		Window(const char* title, int w, int h, Scene* scene);
 
 		void Awake();
 		void Start();

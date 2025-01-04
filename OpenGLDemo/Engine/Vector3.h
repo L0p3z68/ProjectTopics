@@ -4,12 +4,12 @@
 #include "Vector2.h"  // Include Vector2 header file
 
 class Vector3 {
-private:
+public:
     float X;
     float Y;
     float Z;
 
-public:
+
     // Constructors
     Vector3(float x, float y, float z);
     Vector3();
@@ -17,15 +17,6 @@ public:
     // Destructor
     ~Vector3();
 
-    // Getters
-    float GetX() const;
-    float GetY() const;
-    float GetZ() const;
-
-    // Setters
-    void SetX(float x);
-    void SetY(float y);
-    void SetZ(float z);
     void Set(float x, float y, float z);
 
     // Operators

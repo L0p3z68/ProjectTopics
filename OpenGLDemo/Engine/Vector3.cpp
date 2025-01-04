@@ -7,24 +7,15 @@ Vector3::Vector3() : X{ 0 }, Y{ 0 }, Z{ 0 } {}
 // Destructor
 Vector3::~Vector3() {}
 
-// Getters
-float Vector3::GetX() const { return X; }
-float Vector3::GetY() const { return Y; }
-float Vector3::GetZ() const { return Z; }
-
-// Setters
-void Vector3::SetX(float x) { X = x; }
-void Vector3::SetY(float y) { Y = y; }
-void Vector3::SetZ(float z) { Z = z; }
 void Vector3::Set(float x, float y, float z) { X = x; Y = y; Z = z; }
 
 // Operators
 Vector3 Vector3::operator+(const Vector3& other) const {
-    return Vector3(X + other.GetX(), Y + other.GetY(), Z + other.GetZ());
+    return Vector3(X + other.X, Y + other.Y, Z + other.Z);
 }
 
 Vector3 Vector3::operator-(const Vector3& other) const {
-    return Vector3(X - other.GetX(), Y - other.GetY(), Z - other.GetZ());
+    return Vector3(X - other.X, Y - other.Y, Z - other.Z);
 }
 
 Vector3 Vector3::operator*(float other) const {
@@ -39,7 +30,7 @@ Vector3 Vector3::operator/(float other) const {
 }
 
 bool Vector3::operator==(const Vector3& other) const {
-    return X == other.GetX() && Y == other.GetY() && Z == other.GetZ();
+    return X == other.X && Y == other.Y && Z == other.Z;
 }
 
 bool Vector3::operator!=(const Vector3& other) const {

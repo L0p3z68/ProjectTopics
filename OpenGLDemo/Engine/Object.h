@@ -1,23 +1,27 @@
 #pragma once
 #include "BaseScript.h"
 #include "Transform.h"
+#include "Components.h"
 #include <vector>
 
-class Object : BaseScript
-{
-	private:
-		Transform transform;
-		std::vector<Components> components;
+class Object : public BaseScript {
+private:
+    Transform transform;
 
-	public:
-		Object(Transform transform);
-		Object();
-		void AddComponent(Components component);
+    std::vector<Components*> components;
 
-		void Awake();
-		void Start();
-		void Update(int deltaTime);
+public:
+    int x;
 
-		~Object();
+    Object(Transform transform);
+    Object();
+    ~Object();
+
+    void AddComponent( Components* component);
+    Transform GetTransform() const;
+    void SetTransform(Transform transform);
+
+    void Awake();
+    void Start();
+    void Update(int deltaTime);
 };
-

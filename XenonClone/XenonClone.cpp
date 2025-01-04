@@ -1,17 +1,14 @@
 #include <iostream>
-#include "Animator.h"
-#include "Window.h"
-#include "SpriteRenderer.h"
+#include "Engine\Animator.h"
+#include "Engine\Window.h"
+#include "Engine\SpriteRenderer.h"
+#include "Engine\Inputs.h"
+#include "Engine\Engine.h"
 
-#include <SDL.h>
-#include <glad/glad.h>
 #undef main
 
 int main(int argc, char* argv[])
 {
-	SDL_Rect playerPosition;
-	playerPosition.x = 16;
-	playerPosition.w = playerPosition.h = 32;
 	int indexAnim = 0;
 
 	float frameTime = 0;
@@ -20,42 +17,41 @@ int main(int argc, char* argv[])
 	float deltaTime = 0;
 
 	float moveSpeed = 200.0f;
-	const Uint8* keyState;
-
-	
+	Engine engine;
 	Scene scene;
-	Window window = Window("SDL window", 640, 480, scene);
-	SpriteRenderer currentImage = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget(), 7, 1);
+	engine.AddScene(scene);
+	Window window = Window("SDL window", 640, 480, &scene);
+	Object nave = Object(Transform(Vector3(16.f, 420.f , 0.f), Vector3(), Vector3(32.f, 32.f, 1.f)));
+	SpriteRenderer spriteNave = SpriteRenderer("graphics/Ship1.bmp", window.GetRenderTarget(), 7, 1);
+	nave.AddComponent( &spriteNave);
+	scene.AddObject(nave); // PASSAR COM PONTEIRO??
+	Object backgroun = Object();
 	SpriteRenderer background = SpriteRenderer("graphics/galaxy2.bmp", window.GetRenderTarget());
-	playerPosition.y = 420;
+	backgroun.AddComponent(&background);
 
 	indexAnim = 3;
 
 
 	bool isRunning = true;
-	SDL_Event ev;
+	Inputs input;
 
 	while (isRunning)
 	{
 		prevTime = currentTime;
-		currentTime = SDL_GetTicks();
+		currentTime = engine.GetTicks();
 		deltaTime = (currentTime - prevTime) / 1000.0f;
 
-		while (SDL_PollEvent(&ev) != 0)
+		while (engine.GetEventPool() != 0)
 		{
 			// Getting the events
-			if (ev.type == SDL_QUIT)
+			if (engine.IsGameQuit())
 				isRunning = false;
-			else if (ev.type == SDL_KEYUP)
-			{
-				indexAnim = 3;
-			}
+			
 		}
-
-		keyState = SDL_GetKeyboardState(NULL);
-		if (keyState[SDL_SCANCODE_RIGHT]) {
-			playerPosition.x += moveSpeed * deltaTime;
-
+		
+		if (input.GetKeyState(input.right)) {
+			nave.SetTransform(Transform(Vector3(nave.GetTransform().GetPosition().X + moveSpeed * deltaTime, nave.GetTransform().GetPosition().Y, nave.GetTransform().GetPosition().Z)));
+			
 			if (frameTime >= 0.1f)
 			{
 				frameTime = 0;
@@ -65,9 +61,8 @@ int main(int argc, char* argv[])
 			}
 
 		}
-		else if (keyState[SDL_SCANCODE_LEFT]) {
-			playerPosition.x -= moveSpeed * deltaTime;
-
+		else if (input.GetKeyState(input.left)) {
+			nave.SetTransform(Transform(Vector3(nave.GetTransform().GetPosition().X - moveSpeed * deltaTime, nave.GetTransform().GetPosition().Y, nave.GetTransform().GetPosition().Z)));
 			if (frameTime >= 0.1f)
 			{
 				frameTime = 0;
@@ -78,28 +73,25 @@ int main(int argc, char* argv[])
 
 		}
 
-		if (keyState[SDL_SCANCODE_UP])
+		if (input.GetKeyState(input.up))
 		{
-			playerPosition.y -= moveSpeed * deltaTime;
+			nave.SetTransform(Transform(Vector3(nave.GetTransform().GetPosition().X, nave.GetTransform().GetPosition().Y + moveSpeed * deltaTime, nave.GetTransform().GetPosition().Z)));
 		}
-		else if (keyState[SDL_SCANCODE_DOWN])
+		else if (input.GetKeyState(input.down))
 		{
-			playerPosition.y += moveSpeed * deltaTime;
+			nave.SetTransform(Transform(Vector3(nave.GetTransform().GetPosition().X, nave.GetTransform().GetPosition().Y - moveSpeed * deltaTime, nave.GetTransform().GetPosition().Z)));
 		}
 
 		frameTime += deltaTime;
-
-		SDL_RenderClear(window.GetRenderTarget());
-		background.RenderImage();
-		currentImage.RenderImage(&playerPosition, indexAnim);
-		SDL_RenderPresent(window.GetRenderTarget());
+		
+		
+		window.Update(deltaTime);
+		
 	}
 
-	
-	currentImage.~SpriteRenderer();
 	background.~SpriteRenderer();
 
-	window.~Window();
+	window.~Window(); // MAKE SURE QUE TODAS AS CLASSES ESTAM A SER DESTRUIDAS AQUI
 
 	return 0;
 }

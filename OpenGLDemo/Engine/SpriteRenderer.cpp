@@ -1,27 +1,49 @@
 #include "SpriteRenderer.h"
+#include <SDL.h>
 
-SpriteRenderer::SpriteRenderer(std::string filePath, SDL_Renderer* renderTarget, int horizontalDevisions, int verticalDevisions): renderTarget{renderTarget}
+struct SpriteRenderer::Impl {
+	SDL_Texture* currentImage = nullptr;
+	SDL_Rect imageRect, imagePos;
+	SDL_Renderer* renderTarget = nullptr;
+	int frameWidth = 0;
+	int frameHeight = 0;
+	int textureWidth = 0;
+	int textureHeight = 0;
+
+	~Impl() {
+		if (currentImage) {
+			SDL_DestroyTexture(currentImage);
+			SDL_DestroyRenderer(renderTarget);
+			currentImage = nullptr;
+			renderTarget = nullptr;
+		}
+	}
+};
+
+
+SpriteRenderer::SpriteRenderer(std::string filePath, SDL_Renderer* renderTarget, int horizontalDevisions, int verticalDevisions): pImpl(new Impl())
 {
-	currentImage = LoadTexture(filePath, renderTarget);
+	
+	pImpl->currentImage = LoadTexture(filePath, renderTarget);
 
 
-	SDL_QueryTexture(currentImage, NULL, NULL, &textureWidth, &textureHeight);
+	SDL_QueryTexture(pImpl->currentImage, NULL, NULL, &pImpl->textureWidth, &pImpl->textureHeight);
 
-	frameWidth = textureWidth / horizontalDevisions;
-	frameHeight = textureHeight / verticalDevisions;
+	pImpl->frameWidth = pImpl->textureWidth / horizontalDevisions;
+	pImpl->frameHeight = pImpl->textureHeight / verticalDevisions;
 
-	imageRect.x = frameWidth * 3;
-	imageRect.y = 0;
-	imageRect.w = frameWidth;
-	imageRect.h = frameHeight;
-
+	pImpl->imageRect.x = pImpl->frameWidth * 3;
+	pImpl->imageRect.y = 0;
+	pImpl->imageRect.w = pImpl->frameWidth;
+	pImpl->imageRect.h = pImpl->frameHeight;
 }
 
-SpriteRenderer::SpriteRenderer(std::string filePath, SDL_Renderer* renderTarget) : renderTarget{ renderTarget }
+SpriteRenderer::SpriteRenderer(std::string filePath, SDL_Renderer* renderTarget) 
 {
-	currentImage = LoadTexture(filePath, renderTarget);
+	pImpl->renderTarget = renderTarget;
+	pImpl->currentImage = LoadTexture(filePath, renderTarget);
 
-	SDL_QueryTexture(currentImage, NULL, NULL, &textureWidth, &textureHeight);
+	SDL_QueryTexture(pImpl->currentImage, NULL, NULL, &pImpl->textureWidth, &pImpl->textureHeight);
 }
 
 SDL_Texture* SpriteRenderer::LoadTexture(std::string filePath, SDL_Renderer* renderTarget)
@@ -45,23 +67,23 @@ SDL_Texture* SpriteRenderer::LoadTexture(std::string filePath, SDL_Renderer* ren
 
 SDL_Texture* SpriteRenderer::GetTexture()
 {
-	return currentImage;
+	return pImpl->currentImage;
 }
 
 int SpriteRenderer::GetTextureWidth()
 {
-	return textureWidth;
+	return pImpl->textureWidth;
 }
 
 int SpriteRenderer::GetTextureHeight()
 {
-	return textureHeight;
+	return pImpl->textureHeight;
 }
 
 void SpriteRenderer::ChangeFrame(int indexFrame)
 {
-	int hdiv = textureWidth / frameWidth;
-	int vdiv = textureHeight / frameHeight;
+	int hdiv = pImpl->textureWidth / pImpl->frameWidth;
+	int vdiv = pImpl->textureHeight / pImpl->frameHeight;
 	int i = 0;
 
 	for (size_t vdivI = 0; vdivI < vdiv; ++vdivI)
@@ -69,28 +91,46 @@ void SpriteRenderer::ChangeFrame(int indexFrame)
 		for (size_t hdivI = 0; hdivI < hdiv; ++hdivI)
 		{
 			if (indexFrame == i++) {
-				imageRect.x = frameWidth * hdivI;
-				imageRect.y = frameHeight * vdivI;
+				pImpl->imageRect.x = pImpl->frameWidth * hdivI;
+				pImpl->imageRect.y = pImpl->frameHeight * vdivI;
 				std::cout << vdivI << hdivI << "\n";
 				return;
 			}
-
-
 		}
 	}
 	std::cout << ("ERROR SpriteRenderer: index given is out of SpriteSheet") << "\n";
 }
 
-void SpriteRenderer::RenderImage( const SDL_Rect* dstrect, int index)
+void SpriteRenderer::RenderImage( int index)
 {
-	std::cout << imageRect.x << " " << imageRect.y << " " << imageRect.w << " " << imageRect.h << "\n";
 	ChangeFrame(index);
-	SDL_RenderCopy(renderTarget, currentImage, &imageRect, dstrect);
+	std::cout << pImpl->imageRect.x << " " << pImpl->imageRect.y << " " << pImpl->imageRect.w << " " << pImpl->imageRect.h << "\n";
+	SDL_Rect temp;
+	temp.x = pImpl->imagePos.x;
+	temp.y = pImpl->imagePos.y;
+	temp.w = pImpl->imagePos.w;
+	temp.h = pImpl->imagePos.h;
+	SDL_Rect temp2;
+	temp2.x = pImpl->imageRect.x;
+	temp2.y = pImpl->imageRect.y;
+	temp2.w = pImpl->imageRect.w;
+	temp2.h = pImpl->imageRect.h;
+
+	SDL_RenderCopy(pImpl->renderTarget, pImpl->currentImage, &pImpl->imageRect, &pImpl->imagePos);
+	
 }
 
 void SpriteRenderer::RenderImage()
 {
-	SDL_RenderCopy(renderTarget, currentImage, NULL, NULL);
+	SDL_RenderCopy(pImpl->renderTarget, pImpl->currentImage, NULL, NULL);
+}
+
+void SpriteRenderer::SetPlayerPos(Transform tran)
+{
+	pImpl->imagePos.x = tran.GetPosition().X;
+	pImpl->imagePos.y = tran.GetPosition().Y;
+	pImpl->imagePos.w = tran.GetScale().X;
+	pImpl->imagePos.h = tran.GetScale().Y;
 }
 
 void SpriteRenderer::Start()
@@ -100,11 +140,11 @@ void SpriteRenderer::Start()
 
 void SpriteRenderer::Update(int deltaTime)
 {
+	RenderImage();
 }
 
 SpriteRenderer::~SpriteRenderer()
 {
-	SDL_DestroyTexture(currentImage);
-
-	currentImage = nullptr;
+	pImpl->~Impl();
 }
+

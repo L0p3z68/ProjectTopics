@@ -9,6 +9,7 @@ class Transform
 		Vector3 scale;
 	public:
 		Transform(Vector3 Position, Vector3 Rotation, Vector3 Scale);
+		Transform(Vector3 Position);
 		Transform();
 
 		Vector3 GetPosition();

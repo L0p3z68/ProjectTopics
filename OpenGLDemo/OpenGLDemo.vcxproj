@@ -114,6 +114,7 @@
     </Link>
     <Lib>
       <AdditionalLibraryDirectories>$(SolutionDir)OpenGLDemo\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.dll;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -135,24 +136,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Engine\Engine.cpp" />
     <ClCompile Include="Engine\Components.cpp" />
     <ClCompile Include="Engine\BaseScript.cpp" />
     <ClCompile Include="Engine\Animator.cpp" />
+    <ClCompile Include="Engine\Inputs.cpp" />
     <ClCompile Include="Engine\Object.cpp" />
     <ClCompile Include="Engine\SpriteRenderer.cpp" />
     <ClCompile Include="Engine\Window.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="OpenGLDemo.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
+    <ClCompile Include="OpenGLDemo.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Engine\Transform.cpp" />
     <ClCompile Include="Engine\Vector3.cpp" />
     <ClCompile Include="Engine\Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Engine\Engine.h" />
     <ClInclude Include="Engine\Components.h" />
     <ClInclude Include="Engine\BaseScript.h" />
     <ClInclude Include="Engine\Animator.h" />
+    <ClInclude Include="Engine\Inputs.h" />
     <ClInclude Include="Engine\Object.h" />
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="Engine\SpriteRenderer.h" />

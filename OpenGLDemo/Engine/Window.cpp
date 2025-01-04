@@ -1,6 +1,8 @@
 #include "Window.h"
 
-Window::Window(const char* title, int w, int h, Scene scene) : scene{scene}
+#include <SDL.h>
+
+Window::Window(const char* title, int w, int h, Scene* scene) : scene{scene}
 {
 	SDL_Init(SDL_INIT_VIDEO);
 
@@ -13,17 +15,20 @@ Window::Window(const char* title, int w, int h, Scene scene) : scene{scene}
 
 void Window::Awake()
 {
-	scene.Awake();
+	scene->Awake();
 }
 
 void Window::Start()
 {
-	scene.Start();
+	scene->Start();
 }
 
 void Window::Update(int deltaTime)
 {
-	scene.Update(deltaTime);
+	
+	scene->Update(deltaTime);
+	SDL_RenderClear(renderTarget);
+	SDL_RenderPresent(renderTarget);
 }
 
 SDL_Renderer* Window::GetRenderTarget()

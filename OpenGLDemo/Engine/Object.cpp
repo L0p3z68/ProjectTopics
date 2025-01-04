@@ -1,46 +1,39 @@
 #include "Object.h"
+#include <iostream>
 
-Object::Object(Transform transform)
-{
-	transform = transform;
+Object::Object(Transform transform) : transform(transform) {}
+
+Object::Object() : transform(Transform()) {}
+
+Object::~Object() {}
+
+void Object::AddComponent( Components* component) {
+    component -> SetParent(this);
+    components.emplace_back(component);
 }
 
-Object::Object()
-{
-	transform = Transform();
+Transform Object::GetTransform() const {
+    return transform;
 }
 
-void Object::AddComponent(Components component)
-{
-	components.push_back(component);
+void Object::SetTransform(Transform transform) {
+    this->transform = transform;
 }
 
-void Object::Awake()
-{
-	for (size_t i = 0; i < components.size(); ++i)
-	{
-		components[i].Awake();
-	}
+void Object::Awake() {
+    for (auto& component : components) {
+        component->Awake();
+    }
 }
 
-void Object::Start()
-{
-	for (size_t i = 0; i < components.size(); ++i)
-	{
-		components[i].Start();
-	}
+void Object::Start() {
+    for (auto& component : components) {
+        component->Start();
+    }
 }
 
-void Object::Update(int deltaTime)
-{
-	for (size_t i = 0; i < components.size(); ++i)
-	{
-		components[i].Update(deltaTime);
-	}
-}
-
-Object::~Object()
-{
-
-	components.~vector();
+void Object::Update(int deltaTime) {
+    for (auto& component : components) {
+        component->Update(deltaTime);
+    }
 }

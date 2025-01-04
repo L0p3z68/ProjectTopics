@@ -1,17 +1,16 @@
 #pragma once
 #include "Components.h"
+#include "Transform.h"
 #include <iostream>
-#include <SDL.h>
 
-class SpriteRenderer : Components
+struct SDL_Renderer;
+struct SDL_Texture;
+
+class SpriteRenderer : public Components
 {
 	private:
-		SDL_Texture* currentImage = nullptr;
-		SDL_Renderer* renderTarget;
-		SDL_Rect imageRect;
-		int frameWidth, frameHeight;
-		int textureWidth, textureHeight;
-		bool background;
+		struct Impl;
+		Impl* pImpl;
 		SDL_Texture* LoadTexture(std::string filePath, SDL_Renderer* renderTarget);
 
 	public:
@@ -22,12 +21,13 @@ class SpriteRenderer : Components
 		int GetTextureWidth();
 		int GetTextureHeight();
 		void ChangeFrame(int i);
-		void RenderImage( const SDL_Rect* dstrect, int index);
+		void RenderImage(int index);
 		void RenderImage();
+		void SetPlayerPos(Transform tran);
 
 		void Start();
-		void Update(int deltaTime);
+		void Update(int deltaTime) override;
 
-		~SpriteRenderer();
+		~SpriteRenderer() override;
 };
 
