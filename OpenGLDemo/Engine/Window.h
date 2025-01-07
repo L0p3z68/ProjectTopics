@@ -1,26 +1,34 @@
 #pragma once
 #include <string>
-#include "Scene.h"
 #include <vector>
 #include <iostream>
 
-class Window : BaseScript
+#include "Scene.h"
+
+
+class Window : public BaseScript
 {
 	private:
+		static Window* instance;
+
 		struct SDL_Window* window = nullptr;
 		struct SDL_Renderer* renderTarget = nullptr;
 		Scene* scene;
 
+		Window(const char* title, int w, int h);
 
 	public:
-		Window(const char* title, int w, int h, Scene* scene);
+		Window(const Window&) = delete;
+		Window& operator=(const Window&) = delete;
+
+		static Window* GetInstance(const char* title = "SDL window", int w = 800, int h = 600);
 
 		void Awake();
 		void Start();
-		void Update(int deltaTime);
+		void Update(float deltaTime);
 
 
-
+		void AddScene(Scene* sceneToAdd);
 		SDL_Renderer* GetRenderTarget();
 
 		~Window();

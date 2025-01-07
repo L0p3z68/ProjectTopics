@@ -1,3 +1,4 @@
-﻿  XenonClone.cpp
-D:\Topicos\ProjectTopics\XenonClone\XenonClone.cpp(92,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  SceneGame.cpp
+  XenonClone.cpp
+  Generating Code...
   XenonClone.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\XenonClone.exe

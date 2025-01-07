@@ -6,16 +6,18 @@ struct Inputs::Aux
 	const Uint8* keyState;
 };
 
-Inputs::Inputs() : aux{new Aux()}
+Inputs::Inputs() : aux(new Aux())
 {
 }
 
 bool Inputs::GetKeyState(KeyName keyName)
 {
+	aux->keyState = SDL_GetKeyboardState(NULL);
 		switch (keyName)
 	{
 		case space:
 			return aux->keyState[SDL_SCANCODE_SPACE];
+
 		case up:
 			return aux->keyState[SDL_SCANCODE_UP];
 		case down:

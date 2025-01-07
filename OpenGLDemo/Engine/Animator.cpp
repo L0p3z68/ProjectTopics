@@ -1,6 +1,6 @@
 #include "Animator.h"
 
-Animator::Animator(SpriteRenderer sr) : spriteRenderer{ sr }{}
+Animator::Animator(SpriteRenderer* sr) : spriteRenderer{ sr }{}
 
 void Animator::AddAnimation(std::string animationName, std::vector<int> frames, bool loop, float fps)
 {
@@ -14,7 +14,7 @@ void Animator::AddAnimation(std::string animationName, std::vector<int> frames, 
 
 void Animator::Play(std::string animationName)
 {
-    for (size_t i = 0; i < animations.size() - 1; ++i)
+    for (size_t i = 0; i <= animations.size() -1; ++i)
     {
         if (animations[i].animationName ==  animationName) {
             indexCurrentAnimation = i;
@@ -24,10 +24,11 @@ void Animator::Play(std::string animationName)
     currentFrameIndex = 0;
 }
 
-void Animator::Update(int deltaTime)
+void Animator::Update(float deltaTime)
 {
     elapsedTime += deltaTime;
-    if (elapsedTime >= 1/animations[indexCurrentAnimation].fps) {
+    float auxx = 1 / animations[indexCurrentAnimation].fps;
+    if (elapsedTime >= auxx) {
         elapsedTime = 0;
 
         if (currentFrameIndex >= animations[indexCurrentAnimation].frames.size()) {
@@ -36,15 +37,17 @@ void Animator::Update(int deltaTime)
             }
             else
             {
-                return;
+                currentFrameIndex = animations[indexCurrentAnimation].frames.size()-1;
             }
         }
+
+        spriteRenderer->SetIndex(animations[indexCurrentAnimation].frames[currentFrameIndex]);
         currentFrameIndex++;
     }
 }
 
 Animator::~Animator()
 {
-    spriteRenderer.~SpriteRenderer();
+    spriteRenderer->~SpriteRenderer();
     animations.~vector();
 }

@@ -8,17 +8,17 @@ Transform::Transform() : position{ Vector3(0.0f, 0.0f, 0.0f) }, rotation{ Vector
 
 Vector3 Transform::GetPosition()
 {
-    return Vector3();
+    return position;
 }
 
 Vector3 Transform::GetRotation()
 {
-    return Vector3();
+    return rotation;
 }
 
 Vector3 Transform::GetScale()
 {
-    return Vector3();
+    return scale;
 }
 
 void Transform::SetPosition(Vector3 pos)

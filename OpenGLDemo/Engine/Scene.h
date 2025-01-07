@@ -5,14 +5,14 @@
 class Scene : public BaseScript
 {
 	private:
-		std::vector<Object> objectsInScene;
+		std::vector<Object*> objectsInScene;
 
 	public:
 		Scene();
-		void AddObject(Object object);
+		void AddObject(Object* object);
 		void Awake();
 		void Start();
-		void Update(int deltaTime);
+		void Update(float deltaTime);
 
 		~Scene();
 };

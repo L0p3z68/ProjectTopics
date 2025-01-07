@@ -4,6 +4,6 @@ class BaseScript
 	public:
 		virtual void Awake();
 		virtual void Start();
-		virtual void Update(int deltaTime);
+		virtual void Update(float deltaTime);
 };
 

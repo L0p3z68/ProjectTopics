@@ -1,20 +1,32 @@
 #pragma once
-#include "Scene.h"
-
+#include "Window.h"
 #include <vector>
 
 class Engine
 {
 	private:
-		std::vector<Scene> scenes;
+		static Engine* instance;
+
+		Window* window;
 		struct Aux;
 		Aux* aux;
+		bool isRunning = true;
+		int prevTime = 0;
+		int currentTime = 0;
+		float deltaTime = 0;
+
+		Engine(Window* window);
 
 	public:
-		Engine();
+		Engine(const Engine&) = delete;
+		Engine& operator=(const Engine&) = delete;
+
+		static Engine* GetInstance(Window* window = nullptr);
+
+		void StartEngine();
 		int GetTicks();
-		bool IsGameQuit();
 		int GetEventPool();
+
 
 		~Engine();
 };

@@ -8,6 +8,6 @@ void BaseScript::Start()
 {
 }
 
-void BaseScript::Update(int deltaTime)
+void BaseScript::Update(float deltaTime)
 {
 }

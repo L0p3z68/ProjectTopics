@@ -20,6 +20,12 @@ void Object::SetTransform(Transform transform) {
     this->transform = transform;
 }
 
+void Object::AddToPosition(Vector3 position)
+{
+    this->transform.SetPosition(transform.GetPosition() + position);
+    std::cout << this->transform.GetPosition().X << " " << this->transform.GetPosition().Y << std::endl;
+}
+
 void Object::Awake() {
     for (auto& component : components) {
         component->Awake();
@@ -32,7 +38,7 @@ void Object::Start() {
     }
 }
 
-void Object::Update(int deltaTime) {
+void Object::Update(float deltaTime) {
     for (auto& component : components) {
         component->Update(deltaTime);
     }

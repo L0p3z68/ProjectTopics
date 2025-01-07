@@ -11,20 +11,20 @@ struct Animation {
 	float fps;
 };
 
-class Animator : Components
+class Animator : public Components
 {
 private:
-	SpriteRenderer spriteRenderer;
+	SpriteRenderer* spriteRenderer;
 	int indexCurrentAnimation = 0;
 	std::vector<Animation> animations; 
 	int currentFrameIndex = 0;
-	int elapsedTime = 0;
+	float elapsedTime = 0;
 
 public:
-	Animator(SpriteRenderer sr);
+	Animator(SpriteRenderer* sr);
 	void AddAnimation(std::string animationName, std::vector<int> frames, bool loop, float fps);
 	void Play(std::string animationName);
-	void Update(int deltaTime);
+	void Update(float deltaTime);
 	~Animator();
 };
 

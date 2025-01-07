@@ -130,12 +130,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Scripts\BackGround.cpp" />
+    <ClCompile Include="Scripts\Nave.cpp" />
+    <ClCompile Include="Scripts\SceneGame.cpp" />
     <ClCompile Include="XenonClone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenGLDemo\OpenGLDemo.vcxproj">
       <Project>{b7103fec-9e4c-45d0-bc00-c4a10472c822}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\BackGround.h" />
+    <ClInclude Include="Scripts\Nave.h" />
+    <ClInclude Include="Scripts\SceneGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

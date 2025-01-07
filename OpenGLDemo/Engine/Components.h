@@ -11,6 +11,6 @@ class Components : public BaseScript {
 
         virtual void Awake();
         virtual void Start();
-        virtual void Update(int deltaTime);
+        virtual void Update(float deltaTime);
         void SetParent(Object* par);
 };

@@ -20,8 +20,9 @@ public:
     void AddComponent( Components* component);
     Transform GetTransform() const;
     void SetTransform(Transform transform);
+    void AddToPosition(Vector3 position);
 
     void Awake();
     void Start();
-    void Update(int deltaTime);
+    void Update(float deltaTime);
 };

@@ -9,7 +9,7 @@ void Components::Start()
 {
 }
 
-void Components::Update(int deltaTime)
+void Components::Update(float deltaTime)
 {
 
 }
