@@ -46,6 +46,10 @@ void Animator::Update(float deltaTime)
     }
 }
 
+void Animator::UpdateRender()
+{
+}
+
 Animator::~Animator()
 {
     spriteRenderer->~SpriteRenderer();

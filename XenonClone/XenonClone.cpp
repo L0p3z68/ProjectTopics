@@ -9,7 +9,7 @@
 int main(int argc, char* argv[])
 {	
 	Window* window = Window::GetInstance("SDL window", 1000, 700);
-	Engine* engine = Engine::GetInstance(window);
+	Engine* engine = Engine::GetInstance(window, Vector2(.0f, .0f));
 	SceneGame* mainScene = new SceneGame();
 	window->AddScene(mainScene);
 	engine->StartEngine();

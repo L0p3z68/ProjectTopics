@@ -6,7 +6,7 @@ Window* Window::instance = nullptr;
 
 Window::Window(const char* title, int w, int h) : scene{nullptr}
 {
-	SDL_Init(SDL_INIT_VIDEO);
+	SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER);
 
 	window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, w, h,  SDL_WINDOW_OPENGL);
 
@@ -45,8 +45,13 @@ void Window::Start()
 
 void Window::Update(float deltaTime)
 {
-	SDL_RenderClear(renderTarget);
 	scene->Update(deltaTime);
+}
+
+void Window::UpdateRender()
+{
+	SDL_RenderClear(renderTarget);
+	scene->UpdateRender();
 	SDL_RenderPresent(renderTarget);
 }
 

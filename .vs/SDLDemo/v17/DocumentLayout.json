@@ -3,131 +3,136 @@
   "WorkspaceRootPath": "D:\\Topicos\\ProjectTopics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\XenonClone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\XenonClone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\OpenGLDemo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\SpriteRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Rusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Animator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Rusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Nave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\EnemyProjectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Spawners.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackGround.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Spawners.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\EnemyProjectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Loner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Loner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Inputs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Animator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Explotion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Missiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\SpriteRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Explotion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Inputs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\BaseScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Nave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Ship1.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\graphics\\Ship1.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Boundaries.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Components.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\RigidBody2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\BaseScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\RigidBody2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\XenonClone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\XenonClone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Boundaries.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Blocks.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XenonClone\\graphics\\Blocks.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\missile.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XenonClone\\graphics\\missile.bmp||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
   "DocumentGroupContainers": [
@@ -137,160 +142,367 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BackGround.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.cpp",
-              "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackGround.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.cpp",
-              "RelativeToolTip": "XenonClone\\Scripts\\BackGround.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-07T06:15:01.075Z",
-              "EditorCaption": ""
+              "DocumentIndex": 31,
+              "Title": "Blocks.bmp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Blocks.bmp",
+              "RelativeDocumentMoniker": "XenonClone\\graphics\\Blocks.bmp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Blocks.bmp",
+              "RelativeToolTip": "XenonClone\\graphics\\Blocks.bmp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-09T11:00:57.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BackGround.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.h",
-              "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackGround.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackGround.h",
-              "RelativeToolTip": "XenonClone\\Scripts\\BackGround.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T06:14:57.343Z",
+              "DocumentIndex": 0,
+              "Title": "BackgroundParalax.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackgroundParalax.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\BackgroundParalax.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:57:41.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BackgroundParalax.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackgroundParalax.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\BackgroundParalax.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T10:46:19.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Spawners.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Spawners.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Spawners.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:28:33.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Spawners.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Spawners.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Spawners.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T10:27:31.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyProjectile.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\EnemyProjectile.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\EnemyProjectile.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T10:11:46.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyProjectile.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\EnemyProjectile.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\EnemyProjectile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:12:59.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rusher.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Rusher.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Rusher.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T04:01:21.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rusher.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Rusher.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Rusher.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T04:00:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Loner.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Loner.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Loner.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T10:01:32.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Loner.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Loner.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Loner.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T10:00:27.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Explotion.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Explotion.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Explotion.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T09:05:28.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Missiles.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Missiles.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Missiles.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T06:17:15.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Explotion.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Explotion.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Explotion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T09:04:04.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Missiles.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Missiles.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Missiles.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T06:15:45.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Nave.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Nave.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp",
               "RelativeToolTip": "XenonClone\\Scripts\\Nave.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-07T06:12:42.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T06:28:18.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "Nave.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Nave.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.h",
               "RelativeToolTip": "XenonClone\\Scripts\\Nave.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T06:12:32.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T06:12:32.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Scene.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Scene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T06:25:12.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Scene.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Scene.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T06:23:41.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Object.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Object.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Object.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T06:23:14.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Object.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Object.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Object.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-09T06:23:09.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "missile.bmp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\missile.bmp",
+              "RelativeDocumentMoniker": "XenonClone\\graphics\\missile.bmp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\missile.bmp",
+              "RelativeToolTip": "XenonClone\\graphics\\missile.bmp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-09T06:19:02.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RigidBody2D.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.cpp",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\RigidBody2D.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.cpp",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\RigidBody2D.cpp",
+              "ViewState": "AgIAADUAAAAAAAAAAAAawD4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T03:36:00.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RigidBody2D.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\RigidBody2D.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\RigidBody2D.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\RigidBody2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T04:15:59.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Boundaries.cpp",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.cpp",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Boundaries.cpp",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.cpp",
+              "RelativeToolTip": "XenonClone\\Scripts\\Boundaries.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-08T03:22:39.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Boundaries.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.h",
+              "RelativeDocumentMoniker": "XenonClone\\Scripts\\Boundaries.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Boundaries.h",
+              "RelativeToolTip": "XenonClone\\Scripts\\Boundaries.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-08T03:22:36.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SceneGame.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\SceneGame.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.cpp",
               "RelativeToolTip": "XenonClone\\Scripts\\SceneGame.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-07T04:03:16.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "SceneGame.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\SceneGame.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.h",
               "RelativeToolTip": "XenonClone\\Scripts\\SceneGame.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-07T04:00:48.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T04:00:48.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Ship1.bmp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Ship1.bmp",
-              "RelativeDocumentMoniker": "XenonClone\\graphics\\Ship1.bmp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\graphics\\Ship1.bmp",
-              "RelativeToolTip": "XenonClone\\graphics\\Ship1.bmp",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-07T02:10:37.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "vector",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\vector",
-              "ViewState": "AgIAAFIHAAAAAAAAAAAwwF8HAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-07T01:33:22.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpriteRenderer.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\SpriteRenderer.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\SpriteRenderer.cpp",
-              "ViewState": "AgIAAHQAAAAAAAAAAAArwIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-07T01:21:44.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SpriteRenderer.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\SpriteRenderer.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\SpriteRenderer.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\SpriteRenderer.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-21T16:38:42.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OpenGLDemo.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\OpenGLDemo.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\OpenGLDemo.cpp",
-              "RelativeToolTip": "OpenGLDemo\\OpenGLDemo.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAG0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-05T20:29:36.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "Inputs.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Inputs.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.cpp",
               "RelativeToolTip": "OpenGLDemo\\Engine\\Inputs.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-04T20:18:25.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:18:25.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Inputs.h",
+              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.h",
+              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Inputs.h",
+              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.h",
+              "RelativeToolTip": "OpenGLDemo\\Engine\\Inputs.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T01:11:24.602Z"
             },
             {
               "$type": "Document",
@@ -300,257 +512,33 @@
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Engine.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.cpp",
               "RelativeToolTip": "OpenGLDemo\\Engine\\Engine.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawDcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-04T18:14:51.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T18:14:51.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "Engine.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.h",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Engine.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.h",
               "RelativeToolTip": "OpenGLDemo\\Engine\\Engine.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-04T18:10:27.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Vector2.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector2.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector2.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Vector2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-25T12:03:20.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T18:10:27.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Vector3.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector3.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Vector3.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-25T07:12:50.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Object.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Object.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Object.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T21:44:51.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Object.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Object.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Object.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Object.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-21T21:43:50.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Window.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Window.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Window.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAArwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-21T16:04:23.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Window.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Window.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Window.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Window.cpp",
-              "ViewState": "AgIAACUAAAAAAAAAAAArwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T16:04:21.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Scene.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Scene.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T14:48:50.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Scene.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Scene.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Scene.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T12:20:19.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BaseScript.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\BaseScript.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\BaseScript.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-05T16:03:46.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BaseScript.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\BaseScript.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\BaseScript.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\BaseScript.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T16:03:29.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Animator.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Animator.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Animator.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-05T15:25:21.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Animator.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Animator.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Animator.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Animator.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T16:06:39.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Components.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Components.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Components.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-13T15:27:07.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Components.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Components.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Components.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Components.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T18:10:52.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Vector3.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Vector3.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Vector3.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Vector3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T17:55:47.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Transform.h",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Transform.h",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.h",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Transform.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-30T12:21:54.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Transform.cpp",
-              "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.cpp",
-              "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Transform.cpp",
-              "ToolTip": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Transform.cpp",
-              "RelativeToolTip": "OpenGLDemo\\Engine\\Transform.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-30T17:58:06.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "XenonClone.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\XenonClone.cpp",
               "RelativeDocumentMoniker": "XenonClone\\XenonClone.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\XenonClone.cpp",
               "RelativeToolTip": "XenonClone\\XenonClone.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T21:53:07.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T21:53:07.508Z"
             }
           ]
         }

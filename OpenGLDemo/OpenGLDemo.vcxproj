@@ -114,8 +114,8 @@
       <AdditionalDependencies>$(SolutionDir)\Box2d\lib\box2dd.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Lib>
-      <AdditionalLibraryDirectories>$(SolutionDir)OpenGLDemo\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)OpenGLDemo\SDL2\lib\x64;$(SolutionDir)OpenGLDemo\Box2d\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;box2dd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
@@ -148,6 +148,7 @@
     <ClCompile Include="Engine\Window.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="Engine\Scene.cpp" />
+    <ClCompile Include="Engine\RigidBody2D.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Engine\Transform.cpp" />
     <ClCompile Include="Engine\Vector3.cpp" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Engine\Vector3.h" />
     <ClInclude Include="Engine\Vector2.h" />
     <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Engine\RigidBody2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

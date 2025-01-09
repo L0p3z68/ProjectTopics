@@ -31,8 +31,9 @@ class SpriteRenderer : public Components
 		void SetPlayerPos();
 		void SetIndex(int index);
 
+
 		void Start();
-		void Update(float deltaTime);
+		void UpdateRender();
 
 		~SpriteRenderer() override;
 };

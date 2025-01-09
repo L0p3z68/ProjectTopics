@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include "Vector2.h"
 
 class Inputs 
 {
@@ -19,8 +20,17 @@ class Inputs
 			s,
 			d
 		} ;
+		enum ButtonName {
+			FaceDown,
+			FaceRight,
+			FaceUp,
+			FaceLeft
+		};
 
 		Inputs();
 		bool GetKeyState(KeyName keyName);
+		bool GetButtonState(ButtonName buttonName);
+		Vector2 GetControllerLeftAxis();
+		Vector2 GetControllerRightAxis();
 };
 

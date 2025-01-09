@@ -14,6 +14,10 @@ void Components::Update(float deltaTime)
 
 }
 
+void Components::UpdateRender()
+{
+}
+
 void Components::SetParent(Object* par)
 {
 	parent = par;

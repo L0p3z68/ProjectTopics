@@ -130,9 +130,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Scripts\BackgroundParalax.cpp" />
+    <ClCompile Include="Scripts\EnemyProjectile.cpp" />
+    <ClCompile Include="Scripts\Loner.cpp" />
+    <ClCompile Include="Scripts\Explotion.cpp" />
+    <ClCompile Include="Scripts\Missiles.cpp" />
+    <ClCompile Include="Scripts\Rusher.cpp" />
+    <ClCompile Include="Scripts\Boundaries.cpp" />
     <ClCompile Include="Scripts\BackGround.cpp" />
     <ClCompile Include="Scripts\Nave.cpp" />
     <ClCompile Include="Scripts\SceneGame.cpp" />
+    <ClCompile Include="Scripts\Spawners.cpp" />
     <ClCompile Include="XenonClone.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,9 +149,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scripts\BackgroundParalax.h" />
+    <ClInclude Include="Scripts\EnemyProjectile.h" />
+    <ClInclude Include="Scripts\Loner.h" />
+    <ClInclude Include="Scripts\Explotion.h" />
+    <ClInclude Include="Scripts\Missiles.h" />
+    <ClInclude Include="Scripts\Rusher.h" />
+    <ClInclude Include="Scripts\Boundaries.h" />
     <ClInclude Include="Scripts\BackGround.h" />
     <ClInclude Include="Scripts\Nave.h" />
     <ClInclude Include="Scripts\SceneGame.h" />
+    <ClInclude Include="Scripts\Spawners.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

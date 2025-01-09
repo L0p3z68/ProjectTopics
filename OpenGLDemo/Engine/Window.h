@@ -26,6 +26,7 @@ class Window : public BaseScript
 		void Awake();
 		void Start();
 		void Update(float deltaTime);
+		void UpdateRender();
 
 
 		void AddScene(Scene* sceneToAdd);

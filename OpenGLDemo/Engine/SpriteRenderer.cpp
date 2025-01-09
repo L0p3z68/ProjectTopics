@@ -3,7 +3,7 @@
 
 struct SpriteRenderer::Impl {
 	SDL_Texture* currentImage = nullptr;
-	SDL_Rect imageRect, imagePos;
+	SDL_Rect imageRect , imagePos;
 	SDL_Renderer* renderTarget = nullptr;
 	int frameWidth = 0;
 	int frameHeight = 0;
@@ -106,7 +106,6 @@ void SpriteRenderer::RenderImage( int index)
 {
 	ChangeFrame(index);
 	SetPlayerPos();
-
 	SDL_RenderCopy(pImpl->renderTarget, pImpl->currentImage, &pImpl->imageRect, &pImpl->imagePos);
 	
 }
@@ -118,8 +117,8 @@ void SpriteRenderer::RenderImage()
 
 void SpriteRenderer::SetPlayerPos()
 {
-	pImpl->imagePos.x = obj->GetTransform().GetPosition().X;
-	pImpl->imagePos.y = obj->GetTransform().GetPosition().Y;
+	pImpl->imagePos.x = obj->GetTransform().GetPosition().X - obj->GetTransform().GetScale().X / 2;
+	pImpl->imagePos.y = obj->GetTransform().GetPosition().Y - obj->GetTransform().GetScale().Y / 2;
 	pImpl->imagePos.w = obj->GetTransform().GetScale().X;
 	pImpl->imagePos.h = obj->GetTransform().GetScale().Y;
 }
@@ -134,7 +133,7 @@ void SpriteRenderer::Start()
 	
 }
 
-void SpriteRenderer::Update(float deltaTime)
+void SpriteRenderer::UpdateRender()
 {
 	if (renderInAll) {
 		RenderImage();

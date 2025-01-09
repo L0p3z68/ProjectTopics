@@ -13,6 +13,8 @@ class Scene : public BaseScript
 		void Awake();
 		void Start();
 		void Update(float deltaTime);
+		void UpdateRender();
+		void Destroy(Object* object);
 
 		~Scene();
 };
