@@ -26,6 +26,7 @@ void SceneGame::Awake()
 	AddObject(boundarie);
 	AddObject(boundarie1);
 	AddObject(boundarie2);
+	AddObject(boundarie3);
 	AddObject(spawner);
 
 	Scene::Awake();
