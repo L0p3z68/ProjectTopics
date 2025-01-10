@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Topicos\\ProjectTopics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,20 +15,24 @@
       "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Rusher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Rusher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\BackgroundParalax.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B7103FEC-9E4C-45D0-BC00-C4A10472C822}|OpenGLDemo\\OpenGLDemo.vcxproj|solutionrelative:OpenGLDemo\\Engine\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Nave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|solutionrelative:XenonClone\\Scripts\\Missiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0762B101-4105-47FC-AF8B-3F32C51568A6}|XenonClone\\XenonClone.vcxproj|D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Explotion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -142,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
@@ -157,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "BackgroundParalax.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackgroundParalax.cpp",
@@ -165,12 +165,11 @@
               "RelativeToolTip": "XenonClone\\Scripts\\BackgroundParalax.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-09T10:57:41.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T10:57:41.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BackgroundParalax.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\BackgroundParalax.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\BackgroundParalax.h",
@@ -182,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Spawners.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Spawners.cpp",
@@ -194,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Spawners.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Spawners.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Spawners.h",
@@ -206,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EnemyProjectile.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\EnemyProjectile.h",
@@ -218,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EnemyProjectile.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\EnemyProjectile.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\EnemyProjectile.cpp",
@@ -230,31 +229,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Rusher.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Rusher.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.cpp",
               "RelativeToolTip": "XenonClone\\Scripts\\Rusher.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-09T04:01:21.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Rusher.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Rusher.h",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Rusher.h",
               "RelativeToolTip": "XenonClone\\Scripts\\Rusher.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-09T04:00:19.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Loner.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Loner.cpp",
@@ -266,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Loner.h",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Loner.h",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Loner.h",
@@ -290,15 +289,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "Missiles.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Missiles.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Missiles.cpp",
               "RelativeToolTip": "XenonClone\\Scripts\\Missiles.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-09T06:17:15.51Z"
+              "WhenOpened": "2025-01-09T06:17:15.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -326,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Nave.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\Nave.cpp",
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\Nave.cpp",
@@ -463,7 +463,7 @@
               "RelativeDocumentMoniker": "XenonClone\\Scripts\\SceneGame.cpp",
               "ToolTip": "D:\\Topicos\\ProjectTopics\\XenonClone\\Scripts\\SceneGame.cpp",
               "RelativeToolTip": "XenonClone\\Scripts\\SceneGame.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-07T04:03:16.89Z"
             },
@@ -481,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Inputs.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Inputs.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Inputs.cpp",
@@ -505,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Engine.cpp",
               "DocumentMoniker": "D:\\Topicos\\ProjectTopics\\OpenGLDemo\\Engine\\Engine.cpp",
               "RelativeDocumentMoniker": "OpenGLDemo\\Engine\\Engine.cpp",
