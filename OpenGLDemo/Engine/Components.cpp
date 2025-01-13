@@ -26,5 +26,6 @@ void Components::SetParent(Object* par)
 
 Components::~Components()
 {
-
+	delete parent;
+	parent = nullptr;
 }

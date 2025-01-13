@@ -146,5 +146,10 @@ void SpriteRenderer::UpdateRender()
 SpriteRenderer::~SpriteRenderer()
 {
 	pImpl->~Impl();
+	delete pImpl;
+	pImpl = nullptr;
+
+	delete obj;
+	obj = nullptr;
 }
 

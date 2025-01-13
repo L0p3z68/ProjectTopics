@@ -32,5 +32,6 @@ class Inputs
 		bool GetButtonState(ButtonName buttonName);
 		Vector2 GetControllerLeftAxis();
 		Vector2 GetControllerRightAxis();
+		~Inputs();
 };
 

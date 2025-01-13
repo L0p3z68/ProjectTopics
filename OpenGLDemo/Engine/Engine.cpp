@@ -97,6 +97,13 @@ b2WorldId* Engine::GetWorldId()
 Engine::~Engine()
 {
 	window->~Window();
+	delete window;
+	window = nullptr;
+
 	b2DestroyWorld(aux->worldId);
 	delete aux;
+	aux = nullptr;
+
+	delete instance;
+	instance = nullptr;
 }

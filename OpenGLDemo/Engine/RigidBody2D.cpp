@@ -76,4 +76,8 @@ Object* RigidBody2D::GetParent()
 RigidBody2D::~RigidBody2D()
 {
 	delete aux;
+	aux = nullptr;
+
+	delete parent;
+	parent = nullptr;
 }
