@@ -30,14 +30,6 @@ Window::~Window()
 	SDL_DestroyRenderer(renderTarget);
 	window = nullptr;
 	renderTarget = nullptr;
-
-	scene->~Scene();
-	delete scene;
-	scene = nullptr;
-
-	delete instance;
-	instance = nullptr;
-
 	SDL_Quit();
 }
 

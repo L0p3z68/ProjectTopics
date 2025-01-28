@@ -53,7 +53,5 @@ void Animator::UpdateRender()
 Animator::~Animator()
 {
     spriteRenderer->~SpriteRenderer();
-    delete spriteRenderer;
-    spriteRenderer = nullptr;
     animations.~vector();
 }

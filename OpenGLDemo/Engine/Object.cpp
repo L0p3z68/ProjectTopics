@@ -6,15 +6,7 @@ Object::Object(std::string tag, Transform transform) : transform(transform), tag
 
 Object::Object() : transform(Transform()) {}
 
-Object::~Object() {
-    for (size_t i = 0; i < components.size(); i++)
-    {
-        components[i]->~Components();
-    }
-    //components.~vector();
-    //delete scene;
-    scene = nullptr;
-}
+Object::~Object() {}
 
 void Object::AddComponent( Components* component) {
     component -> SetParent(this);

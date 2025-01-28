@@ -1,1 +1,13 @@
-﻿  XenonClone.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\XenonClone.exe
+﻿OpenGLDemo.lib(world.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(world.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(wheel_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(wheel_joint.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(weld_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(weld_joint.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(types.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(types.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(shape.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(shape.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(revolute_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(revolute_joint.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(prismatic_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(prismatic_joint.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(mouse_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(mouse_joint.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(hull.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(hull.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(geometry.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(geometry.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(dynamic_tree.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(dynamic_tree.obj)' or at ''; linking object as if no debug info
+OpenGLDemo.lib(distance_joint.obj) : warning LNK4099: PDB '' was not found with 'OpenGLDemo.lib(distance_joint.obj)' or at ''; linking object as if no debug info
+  XenonClone.vcxproj -> D:\Topicos\ProjectTopics\x64\Debug\XenonClone.exe

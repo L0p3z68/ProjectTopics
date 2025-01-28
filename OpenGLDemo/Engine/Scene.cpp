@@ -57,9 +57,5 @@ void Scene::Destroy(Object* object)
 
 Scene::~Scene()
 {
-	for (size_t i = 0; i < objectsInScene.size(); i++)
-	{
-		objectsInScene[i]->~Object();
-	}
 	objectsInScene.~vector();
 }

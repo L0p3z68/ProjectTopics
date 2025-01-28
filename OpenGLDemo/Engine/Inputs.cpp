@@ -87,12 +87,3 @@ Vector2 Inputs::GetControllerRightAxis()
 	return Vector2();
 }
 
-Inputs::~Inputs()
-{
-	SDL_GameControllerClose(aux->controller);
-	aux->controller = nullptr;
-
-	delete aux;
-	aux = nullptr;
-}
-
