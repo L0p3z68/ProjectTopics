@@ -11,8 +11,8 @@ Object::~Object() {
     {
         components[i]->~Components();
     }
-    components.~vector();
-    delete scene;
+    //components.~vector();
+    //delete scene;
     scene = nullptr;
 }
 

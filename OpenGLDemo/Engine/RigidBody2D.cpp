@@ -77,7 +77,4 @@ RigidBody2D::~RigidBody2D()
 {
 	delete aux;
 	aux = nullptr;
-
-	delete parent;
-	parent = nullptr;
 }
